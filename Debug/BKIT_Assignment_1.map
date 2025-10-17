@@ -299,21 +299,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x38 ./Core/Src/crc16.o
  .ARM.attributes
                 0x00000000       0x34 ./Core/Src/crc16.o
- .group         0x00000000        0xc ./Core/Src/debug.o
- .text          0x00000000        0x0 ./Core/Src/debug.o
- .data          0x00000000        0x0 ./Core/Src/debug.o
- .bss           0x00000000        0x0 ./Core/Src/debug.o
- .debug_info    0x00000000       0x22 ./Core/Src/debug.o
- .debug_abbrev  0x00000000       0x12 ./Core/Src/debug.o
- .debug_aranges
-                0x00000000       0x18 ./Core/Src/debug.o
- .debug_macro   0x00000000       0x11 ./Core/Src/debug.o
- .debug_macro   0x00000000      0xad8 ./Core/Src/debug.o
- .debug_line    0x00000000       0x34 ./Core/Src/debug.o
- .debug_str     0x00000000     0x2e60 ./Core/Src/debug.o
- .comment       0x00000000       0x44 ./Core/Src/debug.o
- .ARM.attributes
-                0x00000000       0x34 ./Core/Src/debug.o
  .group         0x00000000        0xc ./Core/Src/dma.o
  .group         0x00000000        0xc ./Core/Src/dma.o
  .group         0x00000000        0xc ./Core/Src/dma.o
@@ -831,6 +816,134 @@ Discarded input sections
  .debug_frame   0x00000000      0x40c ./Core/Src/lcd.o
  .ARM.attributes
                 0x00000000       0x34 ./Core/Src/lcd.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .group         0x00000000        0xc ./Core/Src/led_7seg.o
+ .text          0x00000000        0x0 ./Core/Src/led_7seg.o
+ .data          0x00000000        0x0 ./Core/Src/led_7seg.o
+ .bss           0x00000000        0x0 ./Core/Src/led_7seg.o
+ .data.led_7seg
+                0x00000000        0x4 ./Core/Src/led_7seg.o
+ .data.led_7seg_map_of_output
+                0x00000000       0x10 ./Core/Src/led_7seg.o
+ .bss.led_7seg_index
+                0x00000000        0x2 ./Core/Src/led_7seg.o
+ .data.spi_buffer
+                0x00000000        0x2 ./Core/Src/led_7seg.o
+ .text.led_7seg_init
+                0x00000000       0x18 ./Core/Src/led_7seg.o
+ .text.led_7seg_display
+                0x00000000      0x11c ./Core/Src/led_7seg.o
+ .text.led_7seg_set_digit
+                0x00000000       0x48 ./Core/Src/led_7seg.o
+ .text.led_7seg_set_colon
+                0x00000000       0x40 ./Core/Src/led_7seg.o
+ .text.led_7seg_debug_turn_on
+                0x00000000       0x44 ./Core/Src/led_7seg.o
+ .text.led_7seg_debug_turn_off
+                0x00000000       0x48 ./Core/Src/led_7seg.o
+ .debug_info    0x00000000      0x80d ./Core/Src/led_7seg.o
+ .debug_abbrev  0x00000000      0x1d3 ./Core/Src/led_7seg.o
+ .debug_aranges
+                0x00000000       0x48 ./Core/Src/led_7seg.o
+ .debug_rnglists
+                0x00000000       0x32 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x23e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0xad8 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x22 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x8e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x51 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x103 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x6a ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x1df ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x2ad ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x2e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x2f ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x1c ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x22 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0xfb ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000     0x1011 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x11f ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000    0x15ea5 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x6d ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000     0x3693 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x190 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x5c ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x980 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x9e9 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x115 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x13e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0xa5 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x174 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x287 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x5f ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x236 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0xb5b ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x38b ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x176 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0xf9 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x12c ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x21e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x2e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x516 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x127 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x7e ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x89 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x225 ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x8ed ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x4d ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x2aa ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000      0x12d ./Core/Src/led_7seg.o
+ .debug_macro   0x00000000       0x40 ./Core/Src/led_7seg.o
+ .debug_line    0x00000000      0x8b0 ./Core/Src/led_7seg.o
+ .debug_str     0x00000000    0xd4e4a ./Core/Src/led_7seg.o
+ .comment       0x00000000       0x44 ./Core/Src/led_7seg.o
+ .debug_frame   0x00000000       0xe8 ./Core/Src/led_7seg.o
+ .ARM.attributes
+                0x00000000       0x34 ./Core/Src/led_7seg.o
  .group         0x00000000        0xc ./Core/Src/main.o
  .group         0x00000000        0xc ./Core/Src/main.o
  .group         0x00000000        0xc ./Core/Src/main.o
@@ -5591,12 +5704,12 @@ LOAD D:/STM32Cube/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.
 LOAD ./Core/Src/adc.o
 LOAD ./Core/Src/button.o
 LOAD ./Core/Src/crc16.o
-LOAD ./Core/Src/debug.o
 LOAD ./Core/Src/dma.o
 LOAD ./Core/Src/fsmc.o
 LOAD ./Core/Src/global.o
 LOAD ./Core/Src/gpio.o
 LOAD ./Core/Src/lcd.o
+LOAD ./Core/Src/led_7seg.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/rs485.o
 LOAD ./Core/Src/software_timer.o
