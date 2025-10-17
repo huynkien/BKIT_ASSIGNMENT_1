@@ -38,7 +38,7 @@ void rs485_fsm_init() {
 
 uint8_t crc_checking() {
 	if (receive_index >= 2) {
-		uint16_t crc = crc16((uint16_t*)receive_buffer, receive_index - 2);
+		uint16_t crc = crc16(receive_buffer, receive_index - 2);
 		uint8_t crc_high = (crc >> 8) & 0xFF;
 		uint8_t crc_low = crc & 0xFF;
 		if (crc_low == receive_buffer[receive_index - 2] && crc_high == receive_buffer[receive_index - 1])
@@ -82,8 +82,8 @@ void rs485_fsm() {
 			//received character -> RECEIVE
 			if(receive_character_flag == 1) {
 				receive_character_flag = 0;
-				timer3_set(RS485_T15_TIMER, RS485_T15);
-				timer3_set(RS485_T35_TIMER, RS485_T35);
+				timer_set(RS485_T15_TIMER, RS485_T15);
+				timer_set(RS485_T35_TIMER, RS485_T35);
 				rs485_status = RS485_RECEIVE;
 			}
 
@@ -196,7 +196,7 @@ void rs485_prepare_transmit(uint8_t *data, uint8_t length) {
 	}
 
 	// update crc
-	uint16_t crc = crc16((uint16_t*)transmit_buffer, length);
+	uint16_t crc = crc16(transmit_buffer, length);
 	transmit_buffer[length] = crc & 0xFF;
 	transmit_buffer[length + 1] = (crc >> 8) & 0xFF;
 	transmit_length = length + 2;

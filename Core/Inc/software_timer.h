@@ -13,9 +13,9 @@
 
 void timer_init(void);
 
-void timer3_set(uint8_t index, uint16_t duration);
-uint8_t timer3_isExpired(uint8_t index);
-void timer3_run(void);
+void timer_set(uint8_t index, uint16_t duration);
+uint8_t timer_isExpired(uint8_t index);
+void timer_run(void);
 
 
 #endif /* INC_SOFTWARE_TIMER_H_ */
