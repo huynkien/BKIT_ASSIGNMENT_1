@@ -1,0 +1,12 @@
+../Core/Src/rs485.c:35:6:rs485_fsm_init	8	static
+../Core/Src/rs485.c:39:9:crc_checking	16	static
+../Core/Src/rs485.c:54:6:rs485_fsm	8	static
+../Core/Src/rs485.c:160:6:rs485_init	8	static
+../Core/Src/rs485.c:171:6:rs485_idle	4	static
+../Core/Src/rs485.c:176:6:rs485_transmit	8	static
+../Core/Src/rs485.c:183:6:rs485_receive	4	static
+../Core/Src/rs485.c:187:6:rs485_control_waiting	4	static
+../Core/Src/rs485.c:193:6:rs485_prepare_transmit	24	static
+../Core/Src/rs485.c:209:9:rs485_is_frame_ready	4	static
+../Core/Src/rs485.c:213:6:rs485_get_received_frame	24	static
+../Core/Src/rs485.c:226:6:RS485_UART_Callback	16	static
